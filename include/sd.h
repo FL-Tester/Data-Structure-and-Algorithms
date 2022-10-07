@@ -2,8 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 #define LIST_SIZE 10
 typedef int Data_Type;
+
 
 
 typedef struct data{

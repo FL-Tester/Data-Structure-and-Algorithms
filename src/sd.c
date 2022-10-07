@@ -1,10 +1,11 @@
-#include "sd.h"
-
 /* 顺序表
 1. 建立堆空间 初始化Data_Enter
 2. 确定堆空间的大小，初始化Size
 3. 初始化当前使用量为0
 */
+
+
+#include "sd.h"
 
 //初始化顺序表
 rank_list init_rank_list(){

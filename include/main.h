@@ -8,5 +8,5 @@
 #include "sd.h"         // 顺序表头文件
 #include "list.h"       //链表
 #include "stack.h"      //栈
-
+#include "queue.h"
 

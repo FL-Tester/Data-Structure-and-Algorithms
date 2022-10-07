@@ -2,11 +2,8 @@
 
 int main(){	
 
-
-	
-
+		
 #if 0
-
 	//栈
 	P_Stack stack = new_stack(NULL);
 	Stack_Data_Type data; 				  //定义一个入栈的结构体数据
@@ -86,10 +83,7 @@ int main(){
 	list_display(list_1);
 	//释放堆空间
 	free(list_1->Data_Enter);
-    free(list_1);
-
-
-	
+    free(list_1);	
 #endif	
 
 	return 0;
