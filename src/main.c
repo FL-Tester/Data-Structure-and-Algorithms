@@ -2,6 +2,19 @@
 
 int main(){	
 
+	//队列
+	Queue_Ptr queue = queue_init(10);
+	for(int i = 0; i < 12; i++)
+		queue_add(queue, i);
+	for(int i = 0; i < 12; i++)
+		printf("data is: %d\n", queue_eixt(queue));
+	for(int i = 0; i < 12; i++)
+		queue_add(queue, i);
+	for(int i = 0; i < 12; i++)
+		printf("data is: %d\n", queue_eixt(queue));
+	
+
+
 		
 #if 0
 	//栈

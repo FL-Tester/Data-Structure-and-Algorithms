@@ -10,11 +10,12 @@
         入列
     边界条件
         空 front = rear
-        满 rear = front
+        满 rear+1 = front
         queue->rear = (queue->rear + 1) % queue->size;
         queue->front = (queue->front + 1) % queue->size;
         队列1前面一个位置不能用
 */
+
 #include "queue.h"
 /* 
     循环队列管理结构体
