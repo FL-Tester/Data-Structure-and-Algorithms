@@ -17,9 +17,3 @@ List_single_Ptr new_node(Data_Type data);
 List_single_Ptr List_single_display(List_single_Ptr list, Data_Type *num);
 int List_single_add(List_single_Ptr list, const List_single_Ptr node);
 int List_single_add_last(List_single_Ptr list, const List_single_Ptr node);
-
-
-
-
-
-
