@@ -1,7 +1,6 @@
 #include "main.h"
 
-int main(){	
-
+int main(){
 	//队列
 	Queue_Ptr queue = queue_init(10);
 	for(int i = 0; i < 12; i++)
